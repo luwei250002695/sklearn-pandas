@@ -26,7 +26,7 @@ def _call_fit(fit_method, X, y=None, **kwargs):
         # fit takes only one argument
         return fit_method(X, **kwargs)
 
-
+# transformerpipeline,updata_uwei
 class TransformerPipeline(Pipeline):
     """
     Pipeline that expects all steps to be transformers taking a single X
